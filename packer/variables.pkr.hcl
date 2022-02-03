@@ -17,13 +17,3 @@ variable "base_ami" {
   type    = string
   default = "ami-087c17d1fe0178315"
 }
-
-variable "subnet_id" {
-  type    = string
-  default = "subnet-ccfed3ed"
-}
-
-variable "security_group_id" {
-  type    = string
-  default = "sg-914a0f8f"
-}
