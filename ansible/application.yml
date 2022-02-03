@@ -5,7 +5,7 @@
 
   tasks:
   - name: Install OpenJDK
-    apt:
+    yum:
       name: openjdk-11-jre-headless
 
   - name: download tomcat server packages
